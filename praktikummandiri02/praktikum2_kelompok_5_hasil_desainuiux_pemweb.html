@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasil Pemesanan Barang</title>
+</head>
+<body bgcolor="#EEEEEE">
+
+  <!-- NAVIGASI -->
+  <table border="1" cellspacing="0" cellpadding="8" width="760" align="center" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <a href="praktikum2_kelompok_5_desainuiux_pemweb.html">Home</a> &nbsp;|&nbsp;
+        <a href="praktikum2_kelompok_5_hasil_desainuiux_pemweb.html">Register</a> &nbsp;|&nbsp;
+        <a href="#">Policy</a> &nbsp;|&nbsp;
+        <a href="#">About</a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- FORM -->
+  <form action="#" method="POST">
+    <table border="0" cellspacing="0" cellpadding="5" width="760" align="center">
+
+      <tr>
+        <!-- Gambar: satu sel yang memanjang ke bawah (rowspan) di sebelah kiri -->
+        <td rowspan="10" width="200" valign="top">
+          <img src="/praktikummandiri02/assets/img/iphone 18 pro max.jpg" alt="[ Picture ]" width="180" height="180" border="1">
+        </td>
+        <td width="170" align="right" valign="top">Title Here :</td>
+        <td valign="top">IPHONE 18 PRO MAX</td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top">Description :</td>
+        <td valign="top">Year : 2026<br>Model : iphone 18 Pro Max<br>Condition : New</td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top">Total Amount :</td>
+        <td valign="top">US$1.299</td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top">Pay to :</td>
+        <td valign="top">123-456-789-0</td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="paytype">Payment Type :</label></td>
+        <td valign="top">
+          <select id="paytype" name="paytype">
+            <option selected>Visa Debit</option>
+            <option>Mastercard</option>
+            <option>Bank Transfer</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="holder">Account Holder :</label></td>
+        <td valign="top"><input type="text" id="holder" name="holder" size="45" value="Arif Fiqri Risqullah"></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="accno">Account No :</label></td>
+        <td valign="top">
+          <input type="text" id="accno" name="accno" size="45" value="123-456-789-0">
+          <br>
+          <input type="checkbox" id="sendphone" name="sendphone" checked>
+          <label for="sendphone">Send to Mobile Phone</label>
+          <br>
+          <input type="checkbox" id="sendemail" name="sendemail" checked>
+          <label for="sendemail">Email me copy of transaction</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="phone">Send to Mobile Phone :</label></td>
+        <td valign="top"><input type="text" id="phone" name="phone" size="45" value="085882657403"></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="email">Send to Email :</label></td>
+        <td valign="top"><input type="text" id="email" name="email" size="45" value="ariffr@gmailcom"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td valign="top"><input type="submit" value="Pay using QuidLink"></td>
+      </tr>
+
+    </table>
+  </form>
+
+  <br>
+  <hr width="760" align="center">
+
+</body>
+</html>

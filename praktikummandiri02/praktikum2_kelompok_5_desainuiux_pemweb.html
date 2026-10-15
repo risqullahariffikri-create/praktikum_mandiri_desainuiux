@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pemesanan Barang</title>
+</head>
+<body bgcolor="#EEEEEE">
+
+  <!-- NAVIGASI -->
+  <table border="1" cellspacing="0" cellpadding="8" width="760" align="center" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <a href="praktikum2_kelompok_5_desainuiux_pemweb.html">Home</a> &nbsp;|&nbsp;
+        <a href="praktikum2_kelompok_5_hasil_desainuiux_pemweb.html">Generate Link</a> &nbsp;|&nbsp;
+        <a href="#">Transaction History</a> &nbsp;|&nbsp;
+        <a href="#">Policy</a> &nbsp;|&nbsp;
+        <a href="#">Logout</a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- FORM -->
+  <form action="praktikum2_kelompok_5_hasil_desainuiux_pemweb.html" method="GET">
+    <table border="0" cellspacing="0" cellpadding="5" width="760" align="center">
+
+      <tr>
+        <!-- Gambar: satu sel yang memanjang ke bawah (rowspan) di sebelah kiri -->
+        <td rowspan="9" width="200" valign="top">
+          <img src="/praktikummandiri02/assets/img/iphone 18 pro max.jpg" alt="[ Picture ]" width="180" height="180" border="1">
+        </td>
+        <td width="170" align="right" valign="top"><label for="title">Title Here :</label></td>
+        <td valign="top"><input type="text" id="title" name="title" size="45" value="IPHONE 18 PRO MAX"></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="description">Description :</label></td>
+        <td valign="top"><textarea id="description" name="description" rows="5" cols="43">Year : 2026
+Model : iphone 18 Pro Max
+Condition : New</textarea></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="account">Account Number :</label></td>
+        <td valign="top"><input type="text" id="account" name="account" size="45" value="123-456-789-0"></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="bank">Bank :</label></td>
+        <td valign="top">
+          <select id="bank" name="bank">
+            <option value="HSBC" selected>BCA</option>
+            <option value="BCA">BCA</option>
+            <option value="BNI">BNI</option>
+            <option value="Mandiri">Mandiri</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="holder">Account Holder :</label></td>
+        <td valign="top"><input type="text" id="holder" name="holder" size="45" value="Arif Fiqri Risqullah"></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="transaction">Transaction :</label></td>
+        <td valign="top">
+          <select id="transaction" name="transaction">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <br>
+          <small>* if the transaction is for 3 person, choose 3 from the drop-down list</small>
+          <br><br>
+          <input type="checkbox" id="sendphone" name="sendphone" value="yes" checked>
+          <label for="sendphone">Send to Mobile Phone</label>
+          <br>
+          <input type="checkbox" id="sendemail" name="sendemail" value="yes" checked>
+          <label for="sendemail">Send to Email</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="phone">Send to Mobile Phone :</label></td>
+        <td valign="top"><input type="text" id="phone" name="phone" size="45" value="085882657403"></td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="email">Send to Email :</label></td>
+        <td valign="top"><input type="text" id="email" name="email" size="45" value="ariffr123@gmail.com"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td valign="top"><input type="submit" value="Generate Nabr Link"></td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+</html>
