@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum 3 - Halaman Web Profile</title>
+</head>
+<!-- Membagi halaman menjadi 4 baris: Header, Nav, Konten Tengah, dan Footer -->
+<frameset rows="125, *, 45" border="1" bordercolor="#333333">
+    
+    <!-- a. Header: logo dan nama web -->
+    <frame src="header.html" name="header_frame" scrolling="no" noresize>
+    
+    <!-- Bagian Tengah: dibagi 2 kolom untuk Main (Article) dan Sidebar (Aside) -->
+    <frameset cols="80%, 20%">
+        <!-- b. Article & Konten Profil Utama -->
+        <frame src="main.html" name="main_frame">
+        
+        <!-- c. Aside: konten multimedia foto & download file -->
+        <frame src="sidebar.html" name="sidebar_frame">
+    </frameset>
+    
+    <!-- Footer -->
+    <frame src="footer.html" name="footer_frame" scrolling="no" noresize>
+
+</frameset>
+</html>
