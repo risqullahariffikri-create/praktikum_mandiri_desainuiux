@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><title>Praktikum JavaScript</title></head>
+<body>
+  <h2>Ini Praktikum mandiri 06</h2>
+  <script>
+    // Fungsi pengolah nilai: tugas 30% + UTS 30% + UAS 40%
+    function olahNilai(nama, tugas, uts, uas) {
+      const nilaiAkhir = tugas * 0.30 + uts * 0.30 + uas * 0.40;
+
+      let status;
+      if (nilaiAkhir >= 60) {
+        status = "LULUS";
+      } else {
+        status = "TIDAK LULUS";
+      }
+
+      console.log("Nama mahasiswa:", nama);
+      console.log("Nilai akhir:", nilaiAkhir);
+      console.log("Status:", status);
+    }
+
+    // Contoh pengujian dari modul: Tugas 80, UTS 70, UAS 90 -> 81 -> LULUS
+    olahNilai("Arif", 80, 70, 90);
+
+    // Pengujian tambahan: nilai akhir di bawah 60 -> TIDAK LULUS
+    // (60*0.3 + 40*0.3 + 60*0.4 = 15 + 12 + 24 = 51)
+    console.log("---");
+    olahNilai("rara", 60, 40, 60);
+  </script>
+</body>
+</html>
